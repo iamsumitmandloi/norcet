@@ -229,3 +229,7 @@ Implemented behaviors:
 - ✔ Structured MCQ JSON via `parse_mcq.py` + `build_dataset.py`
 - ✔ Tagged/classified dataset via `tag_questions.py`
 - ✔ Ready-to-query PostgreSQL database via `schema.sql` + `load_to_postgres.py`
+
+## Study resource
+
+- Curated previous year AIIMS nursing questions: `norcet-papers/aiims_nursing_exam_questions.md`
