@@ -1,0 +1,8 @@
+# One URL per line. Add direct PDFs first, then archive pages.
+# Suggested source domains from collected unofficial archives:
+# - testbook.com
+# - prepp.in
+# - scribd.com
+# - careerpower.in
+# Example:
+# https://example.com/aiims-norcet-2024-question-paper.pdf
