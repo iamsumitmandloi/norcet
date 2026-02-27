@@ -107,3 +107,22 @@ Optional custom keyword taxonomy JSON:
 python3 norcet-papers/scripts/tag_questions.py --keyword-file norcet-papers/structured_json/topic_keywords.json
 ```
 
+
+## Database schema (Phase 5)
+
+A PostgreSQL schema is provided at:
+
+- `norcet-papers/database/schema.sql`
+
+It creates a `questions` table with the requested columns and indexes for:
+
+- `year`
+- `subject`
+- `topic`
+- `subtopic`
+
+Apply it with:
+
+```bash
+psql "$DATABASE_URL" -f norcet-papers/database/schema.sql
+```
