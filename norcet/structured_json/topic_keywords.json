@@ -1,0 +1,33 @@
+{
+  "Medical Surgical Nursing": {
+    "Cardiology": {
+      "Shock": [
+        "shock",
+        "hypovolemic",
+        "cardiogenic"
+      ],
+      "Hypertension": [
+        "hypertension",
+        "blood pressure",
+        "antihypertensive"
+      ]
+    },
+    "Respiratory": {
+      "Asthma": [
+        "asthma",
+        "bronchodilator",
+        "wheeze"
+      ]
+    }
+  },
+  "Pharmacology": {
+    "Drug Safety": {
+      "Adverse Effects": [
+        "adverse effect",
+        "toxicity",
+        "dose",
+        "contraindication"
+      ]
+    }
+  }
+}
