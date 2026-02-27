@@ -107,3 +107,21 @@ Optional custom keyword taxonomy JSON:
 python3 norcet-papers/scripts/tag_questions.py --keyword-file norcet-papers/structured_json/topic_keywords.json
 ```
 
+
+## Query API (Phase 6)
+
+Start API server:
+
+```bash
+uvicorn scripts.query_api:app --app-dir norcet-papers --host 0.0.0.0 --port 8000
+```
+
+Available filters on `GET /questions`:
+
+- Year-wise: `GET /questions?year=2022`
+- Subject-wise: `GET /questions?subject=Anatomy`
+- Topic-wise: `GET /questions?topic=Shock`
+- Subtopic-wise: `GET /questions?subtopic=Hypovolemic%20Shock`
+- Mixed filter: `GET /questions?year=2022&subject=Pharmacology`
+
+All filters are optional and can be combined. Text filters are case-insensitive exact matches.
