@@ -1,0 +1,19 @@
+[
+  {
+    "question_id": "7d1caa25-3a2a-4890-b365-57ec18843a12",
+    "year": 2022,
+    "subject": "Medical Surgical Nursing",
+    "topic": "Cardiology",
+    "subtopic": "Shock",
+    "question_text": "A nurse is assessing a patient with signs of hypovolemic shock. Which finding is expected first?",
+    "options": {
+      "A": "Bounding pulse",
+      "B": "Warm flushed skin",
+      "C": "Tachycardia",
+      "D": "Bradycardia"
+    },
+    "correct_answer": "C",
+    "explanation": null,
+    "source_pdf": "sample_memory_based_2022.pdf"
+  }
+]

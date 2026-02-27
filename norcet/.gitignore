@@ -1,0 +1,11 @@
+# Generated pipeline artifacts
+raw_pdfs/**/*.pdf
+extracted_text/*.txt
+logs/download_failures.log
+logs/download_manifest.json
+logs/hash_manifest.json
+
+# Keep folder placeholders
+!raw_pdfs/**/.gitkeep
+!extracted_text/.gitkeep
+!logs/.gitkeep
