@@ -1,0 +1,116 @@
+{
+  "count": 5,
+  "duplicates_removed": 5,
+  "questions": [
+    {
+      "question_id": "norcet-2024-mem-001",
+      "year": 2024,
+      "exam_cycle": "NORCET-6",
+      "subject": "Nursing Foundation",
+      "topic": "Emergency & Critical Care",
+      "subtopic": "CPR",
+      "question_text": "Normal compression to ventilation ratio:",
+      "options": {
+        "A": "30:2",
+        "B": "15:2",
+        "C": "2:30",
+        "D": "15:1"
+      },
+      "correct_answer": "A",
+      "explanation": "Testbook solution confirms 30:2 as the standard CPR ratio in the cited context.",
+      "source": {
+        "type": "memory-based",
+        "platform": "Testbook",
+        "note": "NORCET-6 memory paper (May/June 2024)"
+      }
+    },
+    {
+      "question_id": "norcet-2023-mem-001",
+      "year": 2023,
+      "exam_cycle": "NORCET-4",
+      "subject": "Medical-Surgical Nursing",
+      "topic": "Shock",
+      "subtopic": "Hypovolemic shock",
+      "question_text": "A patient arrives after an RTA: Pulse 127/min, BP 90/56, cold extremities. The nurse suspects which type of shock?",
+      "options": {
+        "A": "Neurogenic",
+        "B": "Hypovolemic",
+        "C": "Spinal",
+        "D": "Cardiogenic"
+      },
+      "correct_answer": "B",
+      "explanation": "Tachycardia with hypotension in trauma context is consistent with hypovolemic shock.",
+      "source": {
+        "type": "memory-based",
+        "platform": "Scribd",
+        "note": "June 2023 NORCET memory compilation"
+      }
+    },
+    {
+      "question_id": "norcet-2022-mem-001",
+      "year": 2022,
+      "exam_cycle": "NORCET-3",
+      "subject": "Nursing Procedures",
+      "topic": "IV Therapy",
+      "subtopic": "Phlebitis",
+      "question_text": "A nurse notes redness, tenderness and slowed IV flow at an IV cannula site. The correct interpretation and action are:",
+      "options": {
+        "A": "Normal finding, continue IV",
+        "B": "Sepsis, stop IV and remove",
+        "C": "Phlebitis, stop IV and remove",
+        "D": "Abnormal - wait for doctor’s order"
+      },
+      "correct_answer": "C",
+      "explanation": "Redness, tenderness and reduced flow indicate phlebitis requiring cannula removal.",
+      "source": {
+        "type": "memory-based",
+        "platform": "Testbook",
+        "note": "NORCET memory paper, September 2022"
+      }
+    },
+    {
+      "question_id": "norcet-2021-mem-001",
+      "year": 2021,
+      "exam_cycle": "NORCET-2 / NORCET-5 session",
+      "subject": "Neurology",
+      "topic": "Glasgow Coma Scale",
+      "subtopic": "Score range",
+      "question_text": "Maximum & minimum score of GCS are:",
+      "options": {
+        "A": "8-9",
+        "B": "8-12",
+        "C": "12-13",
+        "D": "3-15"
+      },
+      "correct_answer": "D",
+      "explanation": "The Glasgow Coma Scale spans from a minimum of 3 to a maximum of 15.",
+      "source": {
+        "type": "memory-based",
+        "platform": "Testbook",
+        "note": "September 2021 NORCET paper discussion"
+      }
+    },
+    {
+      "question_id": "norcet-2020-mem-001",
+      "year": 2020,
+      "exam_cycle": "NORCET-1",
+      "subject": "Obstetrics",
+      "topic": "Fetal assessment",
+      "subtopic": "Fetal position",
+      "question_text": "The relation between the fetal presenting part and maternal pelvis is known as:",
+      "options": {
+        "A": "Attitude",
+        "B": "Lie",
+        "C": "Position",
+        "D": "Station"
+      },
+      "correct_answer": "C",
+      "explanation": "Fetal position describes relation of the presenting part to maternal pelvis landmarks.",
+      "source": {
+        "type": "memory-based",
+        "platform": "Testbook / coaching archive",
+        "note": "NORCET-1 (September 2020) memory paper"
+      }
+    }
+  ]
+}

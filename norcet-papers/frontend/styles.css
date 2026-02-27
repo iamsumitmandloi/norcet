@@ -1,0 +1,15 @@
+:root { font-family: Arial, sans-serif; color: #1f2937; }
+body { margin: 0; background: #f3f4f6; }
+.container { max-width: 980px; margin: 0 auto; padding: 20px; }
+.controls { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; }
+select, button, a { padding: 8px 10px; border-radius: 6px; border: 1px solid #d1d5db; background: white; }
+button { cursor: pointer; }
+.muted { color: #6b7280; }
+.year-actions { display: flex; gap: 10px; margin-bottom: 16px; }
+.hidden { display: none; }
+#pdfFrame { width: 100%; min-height: 500px; border: 1px solid #d1d5db; border-radius: 8px; }
+.question-list { display: grid; gap: 12px; }
+.card { background: white; border-radius: 10px; padding: 14px; border: 1px solid #e5e7eb; }
+.tag { display: inline-block; font-size: 12px; background: #e0f2fe; color: #0c4a6e; padding: 2px 8px; border-radius: 999px; margin-bottom: 8px; }
+.options { margin: 8px 0 0; padding-left: 18px; }
