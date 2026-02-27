@@ -66,3 +66,18 @@ python3 norcet-papers/scripts/downloader.py --url-file norcet-papers/scripts/url
 - `source`
 
 This file is a starter dataset created from the provided memory-based examples and can be expanded once full PDFs are downloaded and parsed.
+
+
+## Parse extracted text into structured MCQs (Phase 3)
+
+```bash
+python3 norcet-papers/scripts/parse_mcq.py --year 2022
+```
+
+Optional metadata defaults (used when subject/topic/subtopic are not found in extracted text):
+
+```bash
+python3 norcet-papers/scripts/parse_mcq.py --year 2022 --subject "Medical Surgical Nursing" --topic "Cardiology" --subtopic "Shock"
+```
+
+Output is written to `structured_json/{year}.json`.
