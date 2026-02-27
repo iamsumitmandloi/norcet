@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NORCET Question Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>NORCET Question Explorer</h1>
+    <p class="muted">Filter by year, subject, and topic. Optimized for large datasets (2000+ questions).</p>
+
+    <section class="controls">
+      <label>
+        Year
+        <select id="yearSelect"></select>
+      </label>
+      <label>
+        Subject
+        <select id="subjectSelect">
+          <option value="">All subjects</option>
+        </select>
+      </label>
+      <label>
+        Topic
+        <select id="topicSelect">
+          <option value="">All topics</option>
+        </select>
+      </label>
+    </section>
+
+    <section id="year2022Actions" class="year-actions hidden">
+      <button id="startTestBtn" type="button">Start Test</button>
+      <button id="viewPdfBtn" type="button">View PDF</button>
+      <a id="downloadPdfBtn" href="#" download>Download PDF</a>
+    </section>
+
+    <section id="pdfPanel" class="hidden">
+      <h2>PDF Preview</h2>
+      <iframe id="pdfFrame" title="NORCET PDF" loading="lazy"></iframe>
+    </section>
+
+    <section>
+      <h2>Questions (<span id="count">0</span>)</h2>
+      <div id="questionList" class="question-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
