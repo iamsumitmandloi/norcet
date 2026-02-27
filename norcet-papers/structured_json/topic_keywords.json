@@ -1,0 +1,33 @@
+{
+  "Medical-Surgical Nursing": {
+    "Emergency & Critical Care": {
+      "Shock": ["shock", "hypovolemic", "cardiogenic", "septic", "anaphylactic"],
+      "CPR": ["cpr", "compression", "ventilation", "resuscitation"]
+    },
+    "IV Therapy": {
+      "Phlebitis": ["iv", "cannula", "phlebitis", "infiltration", "infusion"]
+    }
+  },
+  "Pharmacology": {
+    "Drug Safety": {
+      "Dosage": ["drug", "dose", "dosage", "mg", "tablet", "injection"],
+      "Adverse Effects": ["side effect", "adverse", "toxicity", "contraindication"]
+    }
+  },
+  "Anatomy & Physiology": {
+    "Human Anatomy": {
+      "Bones": ["bone", "femur", "humerus", "vertebra"],
+      "Neurovascular": ["artery", "vein", "nerve", "plexus"]
+    }
+  },
+  "Obstetrics & Gynecology": {
+    "Fetal Assessment": {
+      "Fetal Position": ["fetal", "position", "lie", "station", "presentation"]
+    }
+  },
+  "Neurology": {
+    "Assessment": {
+      "Glasgow Coma Scale": ["gcs", "glasgow", "coma", "score"]
+    }
+  }
+}

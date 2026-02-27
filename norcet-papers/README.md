@@ -81,3 +81,29 @@ python3 norcet-papers/scripts/parse_mcq.py --year 2022 --subject "Medical Surgic
 ```
 
 Output is written to `structured_json/{year}.json`.
+
+
+## Tag structured questions (Phase 4)
+
+Run the hybrid tagging module to assign `subject`, `topic`, and `subtopic` labels from question content:
+
+```bash
+python3 norcet-papers/scripts/tag_questions.py
+```
+
+By default it uses rule-based keyword matching and writes:
+
+- `structured_json/tagged_questions.json`
+
+Optional LLM fallback (used only when rule score is below threshold):
+
+```bash
+OPENAI_API_KEY=... python3 norcet-papers/scripts/tag_questions.py --use-llm --min-score 2
+```
+
+Optional custom keyword taxonomy JSON:
+
+```bash
+python3 norcet-papers/scripts/tag_questions.py --keyword-file norcet-papers/structured_json/topic_keywords.json
+```
+
